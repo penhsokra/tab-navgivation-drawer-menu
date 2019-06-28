@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item android:id="@+id/btnHome" android:title="Home" android:icon="@drawable/ic_home_black_24dp"></item>
+        <item android:id="@+id/btnInbox" android:title="Inbox" android:icon="@drawable/ic_email_black_24dp"></item>
+        <item android:id="@+id/btnSnoozed" android:title="Snoozed" android:icon="@drawable/ic_snooze_black_24dp"></item>
+        <item android:id="@+id/btnDone" android:title="Done" android:icon="@drawable/ic_done_black_24dp"></item>
+        <item
+            android:id="@+id/nav_switch"
+            android:title="Remember Password"
+            android:icon="@drawable/ic_vpn_key_black_24dp"
+            app:actionViewClass="android.widget.Switch"
+            />
+        <item
+            android:id="@+id/checkbox"
+            android:title="Show"
+            android:icon="@drawable/ic_done_black_24dp"
+            app:actionViewClass="android.widget.CheckBox"
+            />
+        <item
+            android:id="@+id/btnRadio"
+            android:title="Radio"
+            android:icon="@drawable/ic_done_black_24dp"
+            app:actionViewClass="android.widget.Radio"
+            />
+    </group>
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/btnHome" android:title="Home" android:icon="@drawable/ic_home_black_24dp"></item>
+    <item android:id="@+id/btnSubscript" android:title="Subscription" android:icon="@drawable/ic_subscriptions_black_24dp"></item>
+    <item android:id="@+id/btnMail" android:title="Inbox" android:icon="@drawable/ic_email_black_24dp"></item>
+</menu>
